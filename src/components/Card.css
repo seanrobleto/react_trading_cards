@@ -1,0 +1,30 @@
+.cardContainer {
+
+    background-image: url('/Users/sean/winterbootcamp2022/react_trading_cards/src/components/reactcard.jpeg');
+    background-repeat: no-repeat;
+    background-size: 400px 600px;
+    position: relative;
+}
+
+.typeIcon {
+    position: absolute !important;
+    right: 30px !important;
+    top: 35px;
+}
+
+.titleContainer {
+    padding: 30px;
+}
+
+.mainImage {
+    width:300px; /* width of container */
+    height: 300px; /* height of container */
+    object-fit: cover;
+    object-position:top;
+    padding: 40px;
+    margin-left: 15px;
+}
+
+.description {
+    padding: 30px;
+}
